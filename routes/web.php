@@ -20,8 +20,11 @@ Route::get('/about/{user}/{id}', function($user,$id){
 
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
-Route::get('/service', 'PagesController@services');
 Route::get('/home', 'PagesController@home');
+Route::get('/congrats', 'PagesController@congrats');
+Route::get('/AvatorUpload', 'PagesController@avator');
+Route::get('/Oath', 'PagesController@oath');
+Route::get('/test', 'PagesController@test');
 
 Auth::routes();
 

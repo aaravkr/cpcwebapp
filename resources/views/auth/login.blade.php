@@ -8,14 +8,14 @@
             <div class="col-md-5">
                     <div class="form shadow">
 
-
-                            <div class="col-md-12">
+  
+                        <div class="col-md-12">
                                     <h1 class="sign_up_heading text-center"> Log in!! </h1>
                                 </div>
                                 <hr class="register_hr d-flex align-items-center justify-content-center"> 
 
               
-                    <form method="POST" action="{{ route('login') }}">
+                    <form method="POST" action="{{route('login')}}">
                         @csrf
 
                         <div class="form-group row">

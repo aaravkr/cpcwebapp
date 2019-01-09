@@ -6,9 +6,6 @@
                 <a class="nav-link " href="#">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#">Chapters</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link " href="#">Get Involved</a>
             </li>
             <li class="nav-item">
@@ -18,10 +15,10 @@
                 <a class="nav-link" href="#">Rewards</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link login_button rounded mt-1" href="#">Log In</a>
+                <a class="nav-link login_button rounded mt-1" href="/login">Log In</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link register_button ml-2 rounded mt-1" href="#">Join Us</a>
+                <a class="nav-link register_button ml-2 rounded mt-1" href="/register">Join Us</a>
               </li>
               
 

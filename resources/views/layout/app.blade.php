@@ -12,7 +12,7 @@
         <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{config('app.name', 'laravel')}}</title>
+        <title>{{config('app.name', 'cyber peace corps')}}</title>
 
         
         <!-- stylesheet -->
@@ -33,7 +33,7 @@
         
     </head>
     <body>
-       
+        @yield('login_register') 
         @include('inc.navbar')
     
        @yield('hr') 

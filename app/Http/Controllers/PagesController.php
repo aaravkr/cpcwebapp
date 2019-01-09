@@ -7,24 +7,32 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function index(){
-        $title = 'hello';
-        return view('pages.index')->with('le',$title);
+        return view('pages.index');
     }
     public function about(){
        
-        return view('pages.about')->with('title','My App');
+        return view('pages.about');
     }
 
-    public function services(){
-        $data = array(
-            'title' => 'Services',
-            'services' => ['web design', 'seo', 'cyber expert']
-            );
-        return view('pages.services')->with($data);
+    public function congrats(){
+       
+        return view('auth.congrats');
     }
+
+    public function oath(){
+       
+        return view('auth.oath');
+    }
+
+    public function avator(){
+       
+        return view('auth.avator');
+    }
+  
 
     public function home(){
      
         return view('pages.home');
     }
+   
 }
