@@ -10515,10 +10515,10 @@ p {
 }
 
 .navbar {
-  height: 16vh;
+  height: auto;
   color: #4099de;
   font-size: 14px;
-  padding-bottom: 0px !important;
+  padding-left: 0px !important;
 }
 
 .navbar-nav li a {
@@ -10528,29 +10528,8 @@ p {
 }
 
 .register_button {
-  border: 1px solid #4099de;
   padding: 4px;
   color: white !important;
-  background: #4099de;
-}
-
-.login_button {
-  border: 1px solid #4099de;
-  padding: 4px;
-}
-
-.register_button:hover {
-  background-color: #ffffff;
-  color: #4099de !important;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.login_button:hover {
-  background-color: #4099de;
-  color: #ffffff !important;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
 }
 
 .nav_border {
@@ -10634,6 +10613,24 @@ p {
   font-size: 24px !important;
 }
 
+@media (max-width: 640px) {
+  .img-responsive {
+    margin-bottom: -40px !important;
+  }
+
+  .navbar {
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+}
+
 @media (max-width: 576px) {
   .home_content {
     padding: 0px !important;
@@ -10662,28 +10659,14 @@ p {
   }
 
   .navbar {
-    padding: 0px 0px 0px 10px !important;
+    padding: 0px !important;
     margin: 0px !important;
   }
 
   .navbar-brand img {
     max-width: 100%;
-    width: 300px;
-  }
-
-  .navbar-toggler {
-    background-color: #d3dbde;
-  }
-
-  .navbar-toggler-icon {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 20px;
-    height: 18px;
+    width: 200px;
+    margin: 0px !important;
   }
 
   /* custom */
@@ -10736,6 +10719,11 @@ p {
   .home_right img {
     height: 90%;
   }
+
+  .nav_border {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
 }
 
 @media (max-width: 786px) {
@@ -10763,6 +10751,42 @@ p {
     text-align: center;
     font-size: 35px;
     line-height: 1;
+  }
+
+  .dual-collapse2 ul {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .middle {
+    padding: 0px !important;
+  }
+
+  .nav_border {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 765px) {
+  .middle {
+    padding: 0px !important;
+  }
+
+  .navbar-brand img {
+    max-width: 100%;
+    width: 250px;
+    margin: 0px !important;
+  }
+
+  .navbar-toggler {
+    padding: 0px 5px !important;
+  }
+
+  .navbar {
+    padding: 0px !important;
+    margin: 0px !important;
   }
 }
 

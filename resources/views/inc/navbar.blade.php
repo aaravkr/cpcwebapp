@@ -1,7 +1,7 @@
 
-  <nav class="navbar navbar-expand-md  pt-2">
-    <div class="navbar-collapse collapse w-100 order-1  dual-collapse2 left justify-content-around">
-        <ul class="navbar-nav">
+  <nav class="navbar navbar-expand-md navbar-light bg-light pr-0 pt-2">
+    <div class="navbar-collapse collapse w-100 order-1 dual-collapse2 left d-sm-flex justify-content-sm-center">
+        <ul class="navbar-nav bg-light text-center d-flex align-items-center">
             <li class="nav-item active">
                 <a class="nav-link " href="#">About</a>
             </li>
@@ -15,10 +15,11 @@
                 <a class="nav-link" href="#">Rewards</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link login_button rounded mt-1" href="/login">Log In</a>
+                <a class="nav-link login_button rounded mt-1" href="/login"><button class="btn btn-default">Log In</button></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link register_button ml-2 rounded mt-1" href="/register">Join Us</a>
+                <a class="nav-link register_button ml-2 rounded mt-1" href="/register"><button class="btn btn-info">Join Us</button>+
+                </a>
               </li>
               
 

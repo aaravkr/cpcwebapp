@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('hr')
-<hr class="nav_border">
+<hr class="nav_border mt-2">
 @endsection
 
 @section('content_home')
